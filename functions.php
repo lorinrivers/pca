@@ -16,7 +16,7 @@ require_once ($includes_path . 'theme-actions.php');		// Theme actions & user de
 add_action( 'init', 'lr_initialize_cmb_meta_boxes', 9999 );
 function lr_initialize_cmb_meta_boxes() {
 	if ( !class_exists( 'cmb_Meta_Box' ) ) {
-		require_once( CHILD_DIR . '/lib/metabox/init.php' );
+		require_once( 'lib/metabox/init.php' );
 	}
 }
 
@@ -151,8 +151,8 @@ register_post_type('pca_session',
     'singular_name' => __('PCA Session')
   ),
     'public' => true,
-    'supports' => array('title'),
-    'rewrite' => array('slug' => 'sessions'),
+    'supports' => array(''),
+    'rewrite' => array('slug' => 'sessions_list'),
     'has_archive' => true,
   )
 );
