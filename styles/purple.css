@@ -1,0 +1,22 @@
+/* Style: Purple */
+
+a:link, a:visited { color:#6b2a8c; }
+
+.nav a { color:#444; }
+.nav li.current_page_item a, .nav li.current_page_parent a:hover, .nav li.current-cat a { background-color:#a22ede;}
+.nav li.current_page_item, .nav li.current_page_parent, .nav li.current-cat{ background:#a22ede; }
+.nav li.current_page_item ul li a { background-color: #f3e6fa; border-color: #e2ccee; }
+.nav li.current_page_item ul li { border-color: #e9d6c9; }
+.nav li.current_page_item ul li a:hover { background-color: #a22ede; }
+
+#navigation_btm, .ui-state-active, .ui-widget-content .ui-state-active  { background-color:#a22ede !important; border-color: #9128c7 !important; }
+
+#events-calendar h2 span , #events-calendar .event .date, .ui-widget-header, .primary .widget a, .secondary .widget a { color:#c99be1 !important; }
+
+.button, .button:visited, .reply a { background-color:#a22ede; }
+.button:hover, .reply a:hover { background-color: #9128c7; }
+
+#loopedSlider .slides div.slide h2 a { border-color: #b054e1; }
+#loopedSlider .slides div.slide h2.title { background-image:none; background-color: #8925bd; border-color: #8925bd; }
+
+.post-more .comments { background-image: none; padding: 10px; background-color: #A22EDE; }

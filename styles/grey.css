@@ -1,0 +1,23 @@
+/* Style: Grey */
+
+body { color: #888; }
+a:link, a:visited { color:#333; }
+.nav a { color:#444; }
+.nav li.current_page_item a, .nav li.current_page_parent a:hover, .nav li.current-cat a { background-color:#999;}
+.nav li.current_page_item, .nav li.current_page_parent, .nav li.current-cat{ background:#666; }
+.nav li.current_page_item ul li a { background-color: #eee; border-color: #ddd; }
+.nav li.current_page_item ul li { border-color: #ddd; }
+.nav li.current_page_item ul li a:hover { background-color: #999; }
+
+#navigation_btm, .ui-state-active, .ui-widget-content .ui-state-active  { background-color:#999 !important; border-color: #666 !important; }
+
+#events-calendar h2 span , #events-calendar .event .date, .ui-widget-header, .primary .widget a, .secondary .widget a { color:#bbb !important; }
+
+.button, .button:visited, .reply a { background-color:#555; }
+.button:hover, .reply a:hover { background-color: #333; }
+
+#loopedSlider .slides div.slide h2 a { border-color: #999; }
+#loopedSlider .slides div.slide h2.title { background-image:none; background-color: #505050; border-color: #505050; }
+
+.post-more .comments { background-image: none; padding: 10px; background-color: #555; }
+#tabs .inside li a { color: #666 !important; }

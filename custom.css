@@ -1,0 +1,29 @@
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles here instead of style.css so it 
+is easier to update the theme. Simply copy an existing 
+style from style.css to this file, and modify it to 
+your liking.
+
+*/
+
+.entry img, img.thumbnail {
+background: white;
+border: 0px solid #DDD;
+padding: 5px;
+}
+
+#header {
+clear: both;
+padding: 0px;
+position: relative;
+}
+
+#content_table td {font-size:85% !important; border-style:solid !important; border-width:1px !important; padding: 3px; padding-left:5px !important; text-align:left !important; line-height:120%;}
+#content_table th {font-size:85% !important; border-style:solid !important; border-width:1px !important; padding: 3px; padding-left:5px !important; text-align:left !important; line-height:120%;}
+
+#onlinecontent_table td {border-style:solid !important; border-width:1px !important; padding: 5px; text-align:left !important; line-height:120%;}

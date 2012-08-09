@@ -1,0 +1,18 @@
+/* CSS3 / Browser specific CSS */
+
+.site-title a, .site-description { text-shadow: 0 1px 0 #fafafa;}
+.nav a  { text-shadow:0 1px 0 #fff; }
+.nav li.current_page_item a, .nav .current_page_parent a, .nav li.current-cat a {text-shadow:1px 1px 0 #222;}
+
+.button, .button:visited, .medium.button, .medium.button:visited { text-shadow: 0 -1px 1px rgba(0,0,0,0.25); }
+.button, .button:visited, .reply a { -moz-border-radius: 5px; -webkit-border-radius: 5px; -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25); text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); border: 1px solid rgba(0,0,0,.25); border-bottom-color: rgba(0,0,0,.35); }
+.button:hover, .reply a:hover { opacity:0.9; }
+
+#tabs ul.wooTabs li a, .event .buttons ul li a, .post-more .read-more a, #navigation ul.rss li a, #tabs #tab-tags a  {text-shadow: 1px 1px #fff !important;}
+.primary .widget h3, .secondary .widget h3, .primary .widget a, .secondary .widget a, .ui-state-default, .ui-widget-content .ui-state-default, #loopedSlider .slides div.slide h2.title, .post-title .event-name h1, .post-title .event-name p, #sidebar .feedback-widget h4, #events-calendar, .event .buttons ul li a, .post-more .comments  {text-shadow: 1px 1px #111;}
+#tabs .inside li a, #sidebar #tabs ul.wooTabs li a, .nav .current_page_parent ul li a, .nav li ul li.current_page_item a, .nav li.current_page_item ul li a { text-shadow: none !important; }
+
+.ui-corner-all {-moz-border-radius:0 !important;}
+
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, #loopedSlider ul.pagination li a:hover, #loopedSlider ul.pagination li.active a, .recentblogposts-widget ul.pagination li.active a { opacity:1 !important; }
+#loopedSlider ul.pagination li a { opacity:0.7; }

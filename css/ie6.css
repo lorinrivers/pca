@@ -1,0 +1,7 @@
+.nav .sf-sub-indicator { display:none; }
+.nav li a:hover { text-decoration:none; }
+.nav li a.sf-with-ul { padding-right:10px; }
+.button, .button:visited { margin:0; color:#fff !important; font-weight:normal; } .reply a {  color:#fff !important; }
+#comments  { zoom: 1; }
+.feedback-widget .customer-image  { padding-top: 5px; }
+#events-calendar .event-outer  { background: none; }

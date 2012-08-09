@@ -1,0 +1,22 @@
+/* Style: Pink */
+
+a:link, a:visited { color:#e73add; }
+
+.nav a { color:#444; }
+.nav li.current_page_item a, .nav li.current_page_parent a:hover, .nav li.current-cat a { background-color:#de02d1;}
+.nav li.current_page_item, .nav li.current_page_parent, .nav li.current-cat{ background:#de02d1; }
+.nav li.current_page_item ul li a { background-color: #ffe3fd; border-color: #e9c5e7; }
+.nav li.current_page_item ul li { border-color: #e9d6c9; }
+.nav li.current_page_item ul li a:hover { background-color: #de02d1; }
+
+#navigation_btm, .ui-state-active, .ui-widget-content .ui-state-active  { background-color:#de02d1 !important; border-color: #c117b7 !important; }
+
+#events-calendar h2 span , #events-calendar .event .date, .ui-widget-header, .primary .widget a, .secondary .widget a { color:#f294ec !important; }
+
+.button, .button:visited, .reply a { background-color:#de02d1; }
+.button:hover, .reply a:hover { background-color: #c117b7; }
+
+#loopedSlider .slides div.slide h2 a { border-color: #e631db; }
+#loopedSlider .slides div.slide h2.title { background-image:none; background-color: #bf02b4; border-color: #bf02b4; }
+
+.post-more .comments { background-image: none; padding: 10px; background-color: #de02d1; }

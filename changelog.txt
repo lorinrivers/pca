@@ -1,0 +1,83 @@
+*** Diarise Changelog ***
+
+2010.11.18 - version 1.4.8
+ * /includes/events-calendar.php - Modified JavaScript actions on next, previous and event date buttons to fix IE7 "events not highlighting" bug. Fixed bug in event display count logic.
+
+2010.11.08 - version 1.4.7
+ * /includes/theme-functions.php - iCal timezone bug fix.
+ 
+2010.10.18 - version 1.4.6
+ * header.php - Fixed home page active navigation class
+ * effects.css - Added text shadow for category navigation
+ * style.css - Added active and hover styling for category navigation
+ * styles/*.css - Added active and hover styling for category navigation
+ 
+
+2010.09.21 - version 1.4.5
+ * /includes/events-calendar.php - Fixed minor custom formatting bug on end date of event.
+ 
+2010.09.13 - version 1.4.4
+ * /includes/featured-single.php - Removed default output of image in map position on single posts.
+
+2010.09.02 - version 1.4.3
+ * /includes/events-calendar.php - Fixed calendar hover and click styling.
+ * style.css - Fixed events calendar hover pointer styling.
+ 
+2010.09.01 - version 1.4.2
+ * single.php - Added force file download to iCal buttons.
+ 
+2010.08.31 - version 1.4.1
+ * /includes/events-calendar.php - Modified output logic to fix event display bug. Added force file download to iCal buttons.
+ * download.php - added file that forces the event iCal files to download
+ 
+2010.08.20 - version 1.4.0
+ * /includes/events-calendar.php - Modified output query to fix next event bug and sorting issue with event range over 2 years. Added $custom_formatting variable on line 772 for custom date formatting.
+ * single.php - added custom formatting option as in /includes/events-calendar.php
+ 
+2010.06.28 - version 1.3.1
+ * style.css - Fixed Gravity forms styling bug
+
+2010.06.21 - version 1.3.0
+ * header.php - Added theme support for WordPress 3.0 Menu Management
+ * /includes/theme-functions.php - Added theme support for WordPress 3.0 Menu Management
+ 
+2010.06.14 - version 1.2.5
+ * /includes/events-calendar.php - Bug fix for events calendar
+ 
+2010.06.11 - version 1.2.4
+ * style.css - Added styling for Gravity forms
+
+2010.06.02 - version 1.2.3
+ * /includes/theme-functions.php - Added timezone conversion for Google events based on WordPress timezone as set in Settings->General. This converts the local event times into UTC format for Google.
+ 
+2010.05.27 - version 1.2.2
+ * /includes/theme-functions.php - Fixed HTML tags in the_excerpt from breaking Google Calendar button.
+
+2010.05.24 - version 1.2.1
+ * /includes/events-calendar.php - Fixed displaying of todays events highlighting and selection.
+ 
+2010.05.20 - version 1.2.0
+ * header.php - Fixed typo on Subscribe by Email
+ * /includes/events-calendar.php - Fixed bug for ordering of events
+ 
+2010.05.17 - version 1.1.3
+ * /includes/events-calendar.php - Removed "location:" when no location added
+ 
+2010.05.17 - version 1.1.2
+ * /includes/events-calendar.php - localized js php headings for calendar.
+ 
+2010.04.28 - version 1.1.1
+ * search.php - sanitized search
+ 
+2010.04.23 - version 1.1.0
+ * header.php - added Google Maps api script reference
+ * single.php - added include for Google Map
+ * style.css - added default Google Maps styles
+ * /includes/events-calendar.php - added location hyperlink to Google Map on the single post
+ * /includes/featured-single.php - Google Map on post page
+ * /includes/theme-functions.php - added Google Maps functionality
+ * /includes/theme-options.php - added Google Maps theme options
+ * /includes/theme-widgets.php - added Google Maps overview widget
+ 	
+2010.04.22 - version 1.0.0
+ * First release!
