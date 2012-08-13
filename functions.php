@@ -34,12 +34,6 @@ function lr_create_metaboxes( $meta_boxes ) {
     'show_names' => true, //Show field names left of input
     'fields' => array(
       array(
-        'name' => 'Session Title',
-        'desc' => 'Title of your session.',
-        'id' => $prefix.'session_title',
-        'type' => 'text'
-      ),
-      array(
         'name' => 'Session Description',
         'desc' => 'Write this to sell your session. Make it compelling. (Limit - 150 words)',
         'id' => $prefix.'session_description',
@@ -151,7 +145,7 @@ register_post_type('pca_session',
     'singular_name' => __('PCA Session')
   ),
     'public' => true,
-    'supports' => array(''),
+    'supports' => array('title'),
     'rewrite' => array('slug' => 'pca_sessions'),
     'has_archive' => true,
   )
