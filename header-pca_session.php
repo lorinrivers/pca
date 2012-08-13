@@ -42,7 +42,29 @@ jQuery(window).load(function(){
 });
 </script>
 <?php } ?>
+<!-- DataTables CSS -->
+<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/css/jquery.dataTables.css">
+<!-- DataTables -->
+<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.8.2/jquery.dataTables.min.js"></script>
+<script type="text/javascript">
+var dataTable_jQuery = jQuery.noConflict();
+dataTable_jQuery(document).ready(function() {
+    dataTable_jQuery('#content_table').dataTable( {
+        "bPaginate": false,
+        "bLengthChange": false,
+        "bFilter": true,
+        "bSort": true,
+        "bInfo": false,
+        "bAutoWidth": false
+    } );
+} );
 
+</script>
+
+<style type="text/css">
+.dataTables_filter {float: none; margin-bottom: 9px;}
+</style>
+<!-- pca header -->
 </head>
 
 <body <?php body_class(); ?>>
