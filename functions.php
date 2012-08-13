@@ -152,7 +152,7 @@ register_post_type('pca_session',
   ),
     'public' => true,
     'supports' => array(''),
-    'rewrite' => array('slug' => 'sessions_list'),
+    'rewrite' => array('slug' => 'pca_sessions'),
     'has_archive' => true,
   )
 );
